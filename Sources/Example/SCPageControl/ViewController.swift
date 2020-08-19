@@ -105,8 +105,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         //## Style SCJAFlatBar ##
         SCP_SCJAFlatBar.frame = CGRect(x: 0, y: screenHeight-200, width: screenWidth, height: 50)
-        SCP_SCJAFlatBar.scp_style = .SCJAFlatBar
-        SCP_SCJAFlatBar.set_view(Int(sc_main.contentSize.width/screenWidth), current: 0, current_color: .blue)
+        SCP_SCJAFlatBar.scp_style = .SCMZFlatBar
+        SCP_SCJAFlatBar.set_view(Int(sc_main.contentSize.width/screenWidth), current: 0, current_color: .red)
     }
     
     //MARK: ## ScrollView Delegate ##

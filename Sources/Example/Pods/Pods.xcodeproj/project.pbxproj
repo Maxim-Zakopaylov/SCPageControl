@@ -20,6 +20,7 @@
 		BA5E130F2EC07466A8155EC27EFFAEA4 /* SCP_SCNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25553715752412CB31A42ED2067CFB4A /* SCP_SCNormal.swift */; };
 		F3E00B2B8444D403542C0B84A947C3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FC03E1B2A8DACE0DFC67430C0971F8C0 /* Pods-SCPageControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3983C7211D0D0EB763E1D5DAA11D72D0 /* Pods-SCPageControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF0F8C024EDAC2C008222EC /* SCP_SCMZFlatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0F8BF24EDAC2C008222EC /* SCP_SCMZFlatBar.swift */; };
 		FDA1E60AE34BE601D4048B3D63DF1DE5 /* SCP_SCJAFlatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42CD2C45B68368FB23D2C4AA59468F /* SCP_SCJAFlatBar.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		E84CDD72A782BB5AAEA2A807EB475939 /* Pods-SCPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF51B7E72BE0E93C0E371A7967B6A027 /* SCPageControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCPageControlView.swift; path = SCPageControl/Classes/SCPageControlView.swift; sourceTree = "<group>"; };
 		FC9CD84DBA53D3DD461BBC289BF7158A /* Pods-SCPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SCPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FCF0F8BF24EDAC2C008222EC /* SCP_SCMZFlatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SCP_SCMZFlatBar.swift; path = SCPageControl/Classes/SCP_SCMZFlatBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				42C7128DA94162499A6CBA815913A58E /* SCP_SCJAFillCircle.swift */,
 				DE42CD2C45B68368FB23D2C4AA59468F /* SCP_SCJAFlatBar.swift */,
+				FCF0F8BF24EDAC2C008222EC /* SCP_SCMZFlatBar.swift */,
 				02D3515FA8B36AA5DB4E815A2388BC4F /* SCP_SCJAMoveCircle.swift */,
 				25553715752412CB31A42ED2067CFB4A /* SCP_SCNormal.swift */,
 				EF51B7E72BE0E93C0E371A7967B6A027 /* SCPageControlView.swift */,
@@ -385,6 +388,7 @@
 				300A0A30264DA70603D5E37F6B113FAB /* SCP_SCJAFillCircle.swift in Sources */,
 				FDA1E60AE34BE601D4048B3D63DF1DE5 /* SCP_SCJAFlatBar.swift in Sources */,
 				77A54F3A04E0BE0469B8CF14CDC22C45 /* SCP_SCJAMoveCircle.swift in Sources */,
+				FCF0F8C024EDAC2C008222EC /* SCP_SCMZFlatBar.swift in Sources */,
 				BA5E130F2EC07466A8155EC27EFFAEA4 /* SCP_SCNormal.swift in Sources */,
 				692765DB7309B66D2702801E72B3B330 /* SCPageControl-dummy.m in Sources */,
 				32940221B5E49CCD281FF0BD4C779394 /* SCPageControlView.swift in Sources */,

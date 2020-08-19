@@ -15,6 +15,7 @@ import UIKit
         case SCJAMoveCircle // Design by Jardson Almeida
         case SCJAFillCircle // Design by Jardson Almeida
         case SCJAFlatBar // Design by Jardson Almeida
+		case SCMZFlatBar //Design by Maxim Zakopaylov
     }
     
     var screenWidth : CGFloat = UIScreen.main.bounds.size.width
@@ -58,6 +59,11 @@ import UIKit
             scp_scjaflatbar.tag = scp_style.rawValue
             scp_scjaflatbar.set_view(page, current: current, current_color: current_color)
             self.addSubview(scp_scjaflatbar)
+		case .SCMZFlatBar:
+			let scp_scmzflatbar = SCP_SCMZFlatBar(frame: viewFrame)
+            scp_scmzflatbar.tag = scp_style.rawValue
+            scp_scmzflatbar.set_view(page, current: current, current_color: current_color)
+            self.addSubview(scp_scmzflatbar)
         default: //.SCNormal
             let scp_normal = SCP_SCNormal(frame: viewFrame)
             scp_normal.tag = scp_style.rawValue
@@ -82,6 +88,10 @@ import UIKit
             if let scp_scjaflatbar = self.viewWithTag(scp_style.rawValue) as? SCP_SCJAFlatBar {
                 scp_scjaflatbar.set_rotateDevice(viewFrame)
             }
+		case .SCMZFlatBar:
+            if let scp_scmzflatbar = self.viewWithTag(scp_style.rawValue) as? SCP_SCMZFlatBar {
+                scp_scmzflatbar.set_rotateDevice(viewFrame)
+            }
         default: //.SCNormal
             if let scp_normal = self.viewWithTag(scp_style.rawValue) as? SCP_SCNormal {
                 scp_normal.set_rotateDevice(viewFrame)
@@ -102,6 +112,10 @@ import UIKit
             }
         case .SCJAFlatBar:
             if let scp: SCP_SCJAFlatBar = self.viewWithTag(scp_style.rawValue) as? SCP_SCJAFlatBar {
+                scp.scroll_did(scrollView)
+            }
+		case .SCMZFlatBar:
+            if let scp: SCP_SCMZFlatBar = self.viewWithTag(scp_style.rawValue) as? SCP_SCMZFlatBar {
                 scp.scroll_did(scrollView)
             }
         default: //.SCNormal
