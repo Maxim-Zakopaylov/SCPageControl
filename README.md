@@ -7,11 +7,6 @@
 ## Description
 Scrolling A page control that moves in sync with the page movement distance.
 
-#### Next Update Todo
-
- - [x] <del>Apply disable_color another design.</del> disable_color is not beautiful
-
-
 ## ScreenShot
 ![](https://github.com/myoungsc/SCPageControl/blob/master/ScreenShot/SCPageControl.gif)
 
@@ -51,6 +46,7 @@ public enum SCPageStyle: Int {
     case SCJAMoveCircle // Design by Jardson Almeida
     case SCJAFillCircle // Design by Jardson Almeida
     case SCJAFlatBar // Design by Jardson Almeida
+    case SCMZFlatbar // Design by Maxim Zakopaylov
 }
 
 let sc = SCPageControlView()
