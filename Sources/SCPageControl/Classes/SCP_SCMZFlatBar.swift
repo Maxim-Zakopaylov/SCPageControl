@@ -55,7 +55,7 @@ class SCP_SCMZFlatBar: UIView {
             self.addSubview(img_page)
             
             if i == current {
-                f_move_x = img_page.frame.origin.x + 11
+                f_move_x = img_page.frame.origin.x
             }
             
             f_x += f_width + 8
