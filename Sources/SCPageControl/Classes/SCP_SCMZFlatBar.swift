@@ -41,10 +41,10 @@ class SCP_SCMZFlatBar: UIView {
         }
         
 		let f_width: CGFloat = 24.0, f_height: CGFloat = 4.0
-        var f_x: CGFloat = ((self.frame.size.width-f_all_width)/2.0) - (f_width/2.0)
+		var f_x: CGFloat = 0.0
         var f_y: CGFloat = (self.frame.size.height-f_height)/2.0, f_move_x: CGFloat = 0.0
         
-        f_start_point = f_x
+		f_start_point = 0.0
         
         for i in 0 ..< numberOfPage {
             let img_page = UIImageView(frame: CGRect(x: f_x, y: f_y, width: f_width, height: f_height))
