@@ -24,7 +24,7 @@ import UIKit
     public var scp_style: SCPageStyle = .SCNormal
     public var isCircle: Bool = true
     
-    var numberOfPage: Int = 0, currentOfPage: Int = 0
+    public var numberOfPage: Int = 0, currentOfPage: Int = 0
     var f_start_point: CGFloat = 0.0, f_start: CGFloat = 0.0
    
     
